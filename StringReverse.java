@@ -7,10 +7,10 @@ public static void main(String[] args){
 	String str = read.nextLine();
 	read.close();
 	//calling reverse method 
-	//reverse(str);
-	//StringBuffer sb=new StringBuffer(str);
+	reverse(str);
+	StringBuffer sb=new StringBuffer(str);
 	//calling reverseUsingStringBuffer method
-	//reverseUsingStringBuffer(sb);
+	reverseUsingStringBuffer(sb);
 	char[] ca=new char[10];
 	str.getChars(0, str.length(), ca, 0);
 	String reverseString=stringReverseUsinggetChars(ca);
